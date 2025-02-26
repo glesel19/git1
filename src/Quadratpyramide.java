@@ -21,9 +21,4 @@ public class Quadratpyramide extends Pyramide {
         System.out.println("Grundfläche: " + berechneGrundflaeche());
         System.out.println("Volumen: " + calcVolumen());
     }
-
-    public static void main(String[] args) {
-        Quadratpyramide pyramide = new Quadratpyramide(4, 10);
-        pyramide.zeigeDaten();
-    }
 }
